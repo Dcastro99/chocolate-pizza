@@ -1,0 +1,11 @@
+* {box-sizing: border-box;}
+
+body{
+  width: 960px;
+}
+
+header{
+  /* display: flex;
+  flex-direction: row; 
+  justify-content: space-between;  */
+}
