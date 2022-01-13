@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <script src="https://kit.fontawesome.com/c78626f8fb.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Roboto+Mono:ital@1&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" herf="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Chocolate Pizza</title>
@@ -12,68 +16,117 @@
 <body>
 
   <header>
-    <div>
-      <i class="fas fa-utensils"></i>
-      <h2>Delicious</h2>
-      <h3>The best food blog on the web</h3>
+    <div id="pageHeader">
+      <img src="images/Chocolate Logo.png" alt="Main Logo" width="75px" height="75px">
+      <div id="Delicious">
+        <h2>Delicious</h2>
+        <h3>THE BEST FOOD BLOG ON THE WEB</h3>
+      </div>
     </div>
-    <nav id="nav1">
-      <i class="fab fa-facebook-square"></i>
-      <i class="fab fa-twitter-square"></i>
-      <img src="images/gp-icon.png" alt="google plus logo">
-      <i class="fab fa-instagram-square"></i>
-      <i class="fab fa-flickr"></i>
-      <i class="fab fa-pinterest-square"></i>
-    </nav>
-    <nav id="nav2">
-      <i class="fas fa-wifi"></i>
-      <i class="fas fa-envelope-square"></i>
-    </nav>
-    <div class="stripes"></div>
+    <div id="mainNav">
+      <nav id="nav1">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <img src="images/gp-icon.png" alt="google plus logo">
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-flickr"></i>
+        <i class="fab fa-pinterest-square"></i>
+        <img src="images/wifi.png" alt="wifi logo">
+        <i class="fas fa-envelope-square"></i>
+      </nav>
+    </div>
   </header>
+  <div class="stripes"></div>
   <main>
-    <div id="recipe header">
+    <div id="sectionHeader">
       <h1>Chocolate Pizza</h1>
-      <p>posted on 15 Dec 2013 / deserts</p>
-      <i class="fas fa-print"><a href="#"></a>PRINT</i>
-
+      <h3>posted on 15 Dec 2013 / deserts
+        <i class="fas fa-print"><a href="#"></a>PRINT</i>
+      </h3>
     </div>
     <!-- main pizza photo -->
-    <img src="images/choco-pizza.png" alt="chocolate pizza picture">
+    <img id="pizzaImage" src="images/choco-pizza.png" alt="chocolate pizza picture" width="960px">
     <section>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est
         laborum.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est
         laborum.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est
         laborum.</p>
-      <div id="list">
-        <img src="images/list-bg.png" alt="recipe list picture">
+    </section>
+    <section id="recipe">
+      <div id="list1">
+        <label>
+          <input type="checkbox">1 1/2 cups Milk
+        </label>
+        <label>
+          <input type="checkbox">1/2 cup mascarpone
+        </label>
+        <label>
+          <input type="checkbox">1/2 tsp pink salt
+        </label>
+        <label>
+          <input type="checkbox">1lb Black Mission Figs
+        </label>
+        <label>
+          <input type="checkbox">1/2 brown sugar
+        </label>
+        <label>
+          <input type="checkbox">2-4 tbsp water
+        </label>
+      </div>
+      <div id="list2">
+        <label>
+          <input type="checkbox">1 1/2 cups heavy cream
+        </label>
+        <label>
+          <input type="checkbox"><del>1/3 granulated sugar</del>
+        </label>
+        <label>
+          <input type="checkbox"><del>2 egg yolks</del>
+        </label>
+        <label>
+          <input type="checkbox">1 lemon, juiced
+        </label>
+        <label>
+          <input type="checkbox">2 tbsp butter
+        </label>
+        <label>
+          <input type="checkbox">1 cup honey roasted pecans, roughly chopped
+        </label>
       </div>
     </section>
     <div class="stripes"></div>
-    <div>
-      <img src="#" alt="#">
-      <h2>Vanessa Stevenson</h2>
-      <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much eho I am</p>
-      <button type="submit">share recipe</button>
+    <div id="aboutVanessa">
+      <img src="images/van-pic.png" alt="Vanessa">
+      <div id="vanessa">
+        <h2>Vanessa Stevenson</h2>
+        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much eho I am</p>
+      </div>
+      <button type="submit">SHARE RECIPE</button>
     </div>
 
   </main>
   <footer>
-    <i class="fas fa-utensils"></i>
-    <p>Delicious copy& 2013 - All Rights Reserved</p>
+    <div id="footerUtensil">
+      <div class="footerLine"></div>
+      <img src="images/Chocolate Logo.png" alt="footerLogo">
+      <div class="footerLine"></div>
+    </div>
+    <p>Delicious &copy 2013 - All Rights Reserved</p>
     <p>Proudly published with Ghost</p>
-
   </footer>
 
 </body>

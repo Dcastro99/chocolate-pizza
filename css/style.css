@@ -2,10 +2,194 @@
 
 body{
   width: 960px;
+  margin: 30px auto;
 }
 
-header{
-  /* display: flex;
-  flex-direction: row; 
-  justify-content: space-between;  */
+#delicious,
+#sectionHeader,
+#vanessa {
+  display: block;
+}
+
+#sectionHeader {
+  margin-bottom: 2rem;
+}
+
+h2, 
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Licorice', cursive;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+h3 {
+  font-family:monospace;
+  color: grey;
+  letter-spacing: -1px;
+  word-spacing: -5px;
+}
+
+main h3 {
+  margin-left: 0;
+  font-size: 1.25rem;
+}
+
+.fa-print {
+  margin-left: 64%;
+  font-size: 1rem;
+}
+#pageHeader {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+header {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#mainNav {
+  display: flex;
+  align-items: center;
+  /* margin-left: 22%; */
+}
+
+i {
+  font-size: 30px;
+}
+
+.fa-pinterest-square {
+  margin-right: 1rem;
+}
+
+.stripes {
+  margin-top: 2rem;
+  width: 960px;
+  padding: .5rem;
+  background: repeating-linear-gradient(
+    45deg, lightgrey, white 2px, lightgrey 4px
+  );
+}
+
+section {
+  margin-top: 2rem;
+}
+
+p {
+  text-indent: 2rem;
+  color: grey;
+  font-size: 1.25rem;
+}
+
+#aboutVanessa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:flex-start;
+  margin-top: 2rem;
+}
+
+#vanessa {
+  margin-right: 14%;
+  width: 60%;
+}
+
+#vanessa h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  letter-spacing: -.5px;
+  margin-left: 0;
+}
+
+#vanessa p {
+  margin-top: .5rem;
+  text-indent: 0;
+  font-size: 1.25rem;
+  color: grey;
+}
+button {
+  width: fit-content;
+  padding: 15px 25px;
+  background-color: rgb(195, 113, 75);
+  color: white;
+  border: none;
+  margin-top: 1rem ;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+}
+
+#footerUtensil {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.footerLine {
+  width: 960px;
+  border: .5px solid rgba(211, 211, 211, 0.397);
+}
+
+footer div:first-child {
+  margin-right: 2rem;
+}
+
+footer div:last-child {
+  margin-left: 2rem;
+}
+#recipe {
+  background: url(../images/list-bg.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+
+#list1,
+#list2 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gochi Hand', cursive;
+}
+
+#list2 {
+  margin-right: 10%;
 }
